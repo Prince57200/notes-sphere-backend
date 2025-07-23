@@ -28,8 +28,7 @@ public class NotesServlet extends HttpServlet {
         // Set response type (JSON for APIs, HTML for web pages)
 	        response.setContentType("application/json");
 	        response.setCharacterEncoding("UTF-8");
-	        response.setHeader("Access-Control-Allow-Origin", "http://localhost:4200");
-//	        response.setHeader("Access-Control-Allow-Origin", "*");
+	        response.setHeader("Access-Control-Allow-Origin", "*");
 	        response.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
 	        response.setHeader("Access-Control-Allow-Headers", "Content-Type");
 	        response.setHeader("Access-Control-Allow-Credentials", "true");
@@ -68,8 +67,7 @@ public class NotesServlet extends HttpServlet {
 			// Set response type (JSON for APIs, HTML for web pages)
 			response.setContentType("application/json");
 			response.setCharacterEncoding("UTF-8");
-			response.setHeader("Access-Control-Allow-Origin", "http://localhost:4200");
-           // response.setHeader("Access-Control-Allow-Origin", "*");
+			response.setHeader("Access-Control-Allow-Origin", "*");
 			response.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
 			response.setHeader("Access-Control-Allow-Headers", "Content-Type");
 			response.setHeader("Access-Control-Allow-Credentials", "true");
@@ -102,8 +100,7 @@ public class NotesServlet extends HttpServlet {
 				// Set response type (JSON for APIs, HTML for web pages)
 				response.setContentType("application/json");
 				response.setCharacterEncoding("UTF-8");
-				response.setHeader("Access-Control-Allow-Origin", "http://localhost:4200");
-	           // response.setHeader("Access-Control-Allow-Origin", "*");
+				response.setHeader("Access-Control-Allow-Origin", "*");
 				response.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
 				response.setHeader("Access-Control-Allow-Headers", "Content-Type");
 				response.setHeader("Access-Control-Allow-Credentials", "true");
